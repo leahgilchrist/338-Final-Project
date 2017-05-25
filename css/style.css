@@ -12,7 +12,7 @@
 
 
 
-.nav {background-color:white;
+.nav {background-color:#F9F9F9;
 	height:120px;
 	padding-top: 1px;
 	padding-bottom: 1px;
@@ -88,7 +88,7 @@ a:hover {
 }
 
 
-.article1_img {
+.article_img {
 
 	
 }
@@ -98,5 +98,15 @@ a:hover {
 	border-color:black;
 	position:absolute;
 	top: 400px;
+	
+}
+
+footer {
+	background-color:#F9F9F9;
+	height: 70px;
+}
+
+footer h3 {
+	padding: 25px;
 	
 }
