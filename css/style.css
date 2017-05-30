@@ -2,7 +2,11 @@
 /* CSS Document */
 
 
-
+body{
+background-image: url(https://www.transparenttextures.com/patterns/swirl.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
+}
 .top {
 	background-color:white;
 	height: 150px;
@@ -20,7 +24,7 @@
 	width:100%;
 	margin-top:-10px;
 }
-li {
+nav li {
 
 	display:inline-block;
 	float:left;
@@ -46,7 +50,8 @@ font-size:20px;
 
 .middle img{ 
 	height: auto;
-	width:100%; 
+	width:100%;
+	margin-top:140px; 
 
 
 	
@@ -83,6 +88,14 @@ a:hover {
 	font-size: 20px;
 }
 
+
+
+.activepage {
+font-weight:600;
+	font-size: 20px;	
+}
+	
+
 .floatclear {
 	clear: both;
 }
@@ -96,8 +109,10 @@ a:hover {
 .sidebar {
 	border-style:solid;
 	border-color:black;
-	position:absolute;
-	top: 400px;
+	position:fixed;
+	float:left;
+	top:400px;
+	right:30px;
 	
 }
 
@@ -112,5 +127,34 @@ footer h3 {
 	
 }
 
+footer li {
+	display:inline-block;
+	float:left;
+	width: auto;
+	font-family: 'Poppins', sans-serif;
+	font-weight:400;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:25px;
+}
 
+.subscribe {
+	padding-left: 400px;
+}
 
+.header img{
+	margin-top:140px;
+	margin-bottom:40px;
+	
+}
+
+.previews div:hover {
+	background-color:black;
+	
+}
+
+h1 {
+	text-align:left;
+	padding:20px;
+	font-size:34px;
+}
