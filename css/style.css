@@ -217,6 +217,11 @@ a {
 	
 }
 
+.articles a {
+	color:black;
+	font-weight:600;
+}
+
 .bottom {
 	margin: 25px;
 }
