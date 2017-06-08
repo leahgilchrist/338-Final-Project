@@ -1,0 +1,52 @@
+Last login: Tue Jun  6 12:54:47 on ttys000
+pcp133217pcs:~ leahgilchrist$ cd Desktop
+pcp133217pcs:Desktop leahgilchrist$ cd 338-Final-Project
+pcp133217pcs:338-Final-Project leahgilchrist$ git commit -am "fix borders"
+[master 4466872] fix borders
+ 17 files changed, 40 insertions(+), 39 deletions(-)
+ delete mode 100755 images/bluesunglasses_text.jpg
+ delete mode 100644 images/brenda-godinez-227272.jpg
+ delete mode 100644 images/clothes_pexel.jpg
+ delete mode 100644 images/foodtop_pexel.jpg
+ delete mode 100644 images/fruit_pexel.jpg
+ delete mode 100644 images/fruit_pexelcrop.jpg
+ delete mode 100644 images/pexels-photo-126313.jpeg
+ delete mode 100644 images/strawberries.jpg
+ delete mode 100755 images/sunglasses.jpg
+pcp133217pcs:338-Final-Project leahgilchrist$ git push
+Counting objects: 23, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 2.05 KiB | 0 bytes/s, done.
+Total 12 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas: 100% (10/10), completed with 10 local objects.
+To https://github.com/leahgilchrist/338-Final-Project.git
+   13cd22a..4466872  master -> master
+pcp133217pcs:338-Final-Project leahgilchrist$ git log
+commit 4466872820efc04b8ec2d1d05eaacd9d5f250610
+Author: leahgilchrist <lgilchri@calpoly.edu>
+Date:   Tue Jun 6 14:56:14 2017 -0700
+
+    fix borders
+
+commit 13cd22ac6e274a98c099c40cf10b18dc16ad80c4
+Author: leahgilchrist <lgilchri@calpoly.edu>
+Date:   Tue Jun 6 14:06:05 2017 -0700
+
+    link social media
+
+commit 6b6f5971e940244fd9da7ae67ad99a6bd6577b7a
+Author: leahgilchrist <lgilchri@calpoly.edu>
+Date:   Tue Jun 6 12:55:15 2017 -0700
+
+    adjust sidebar
+
+commit 9dcbf5579ebfd1d2dc1be59d6eed1afe8bfd92a1
+Author: leahgilchrist <lgilchri@calpoly.edu>
+Date:   Tue Jun 6 12:06:31 2017 -0700
+
+    add images
+
+commit a1e51475a051e0f844383758a98517d8dcb7a26c
+Author: leahgilchrist <lgilchri@calpoly.edu>
+:
